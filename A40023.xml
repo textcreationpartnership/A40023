@@ -1,0 +1,761 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fortune's bounty, or, An everlasting purse for the greatest cuckold in the kingdom</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 25 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A40023</idno>
+            <idno type="STC">Wing F1620</idno>
+            <idno type="STC">ESTC T124879</idno>
+            <idno type="EEBO-CITATION">12911784</idno>
+            <idno type="OCLC">ocm 12911784</idno>
+            <idno type="VID">95337</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A40023)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 95337)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 982:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Fortune's bounty, or, An everlasting purse for the greatest cuckold in the kingdom</title>
+               </titleStmt>
+               <extent>28 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed and are to be sold by B. Bragge ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1700?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+                  <note>In verse.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Humorous poetry, English --  Great Britain --  Early modern, 1500-1700.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Sarah Wingo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Sarah Wingo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:95337:1" rendition="simple:additions"/>
+            <p>FORTUNE's BOUNTY: OR, AN Everlaſting Purſe FOR THE Greateſt <hi>Cuckold</hi> in the Kingdom.</p>
+            <p>
+               <hi>LONDON,</hi> Printed; and are to be Sold by <hi>B. Bragge,</hi> at the <hi>Blue-Ball</hi> in <hi>Ave-Mary-Lane.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:95337:2"/>
+            <pb n="3" facs="tcp:95337:2"/>
+            <head>FORTUNE'S BOUNTY: OR, AN Everlaſting Purſe FOR THE Greateſt <hi>Cuckold</hi> in the Kingdom.</head>
+            <lg>
+               <l>IN wicked Times, when wanton Wives</l>
+               <l>Led injur'd Husbands wretched Lives,</l>
+               <l>Blind Fortune in a gen'rous Mood,</l>
+               <l>Reſolv'd to do ſome Cuckold Good;</l>
+               <l>But being a purblind Female Creature,</l>
+               <l>And of a fickle wav'ring Nature,</l>
+               <l>She could not readily agree</l>
+               <l>What the kind Benefit ſhould be,</l>
+               <l>Or, who have Title to receive</l>
+               <l>The Noble Prize ſhe meant to give.</l>
+               <pb n="4" facs="tcp:95337:3"/>
+               <l>Thus puzzled as ſhe Muſing ſat,</l>
+               <l>Confounded quite 'twixt, who and what:</l>
+               <l>At laſt remembr'ing t'was a fau't</l>
+               <l>To do great things with little thought,</l>
+               <l>She to ſome lonely Cloud retir'd</l>
+               <l>To Think, as Matters well requir'd.</l>
+               <l>The Wiſe uſe great deliberation,</l>
+               <l>E'er they beſtow a large Donation.</l>
+               <l>Lord May'rs are ſeldom over ſpeedy</l>
+               <l>In building Alms-Huts for the Needy;</l>
+               <l>But take ſeven Years Conſideration,</l>
+               <l>About the Pious Works Foundation;</l>
+               <l>Nay little Benefits we find</l>
+               <l>Come ſlow, when done with half a Mind.</l>
+               <l>The Saint will Fumble near an Hour,</l>
+               <l>And have ſome Witneſs by before</l>
+               <l>He'll give his Farthing to the Poor;</l>
+               <l>That they may praiſe the Nigards Bounty,</l>
+               <l>And blaze the Wonder thro' the County,</l>
+            </lg>
+            <lg>
+               <l>But Fortune after ſome confuſion,</l>
+               <l>Came in ſhort time to a concluſion,</l>
+               <l>And made this following reſolution.</l>
+               <pb n="5" facs="tcp:95337:3"/>
+               <l>Which was, that e'ery Marry'd Noddy,</l>
+               <l>Tongue Leas'd and Govern'd by his Dowdy,</l>
+               <l>Tormented with eternal Clamour,</l>
+               <l>More noiſie than a <hi>Pewt'rer's</hi> Hammer;</l>
+               <l>And every peeviſh tortur'd Spouſe</l>
+               <l>That wears his Corns upon his Brows,</l>
+               <l>And raves to think he cannot mend</l>
+               <l>The failings of his Wife's low'r end:</l>
+               <l>Alſo the Patient and the Wiſe</l>
+               <l>Who ſmother all their Injuries</l>
+               <l>Committed 'twixt Adult'rous Thighs,</l>
+               <l>And kindly Father without fretting,</l>
+               <l>A Brood of G—d knows whoſe begetting.</l>
+            </lg>
+            <lg>
+               <l>Theſe Fortune had reſolv'd to Summon,</l>
+               <l>But each t'appear without his Woman;</l>
+               <l>Leaſt Female Tongues ſhould ſpoil the ſport,</l>
+               <l>And make the Crowd turn <hi>Dover</hi>-Court.</l>
+            </lg>
+            <lg>
+               <l>Her Edicts ſign'd with her own Name</l>
+               <l>Were ſcatter'd all abroad by <hi>Fame,</hi>
+               </l>
+               <l>Declaring what ſhe had deſign'd</l>
+               <l>For the moſt Wretched of Mankind:</l>
+               <pb n="6" facs="tcp:95337:4"/>
+               <l>As to the place of Rendezvous,</l>
+               <l>For every Horn'd unhappy Spouſe,</l>
+               <l>She Bearing Cuckoldom in Mind,</l>
+               <l>
+                  <hi>Guild-Hall</hi> was by the Dame aſſign'd</l>
+               <l>Moſt fit above all other places,</l>
+               <l>For Cucks and Cots to ſhew their Faces.</l>
+            </lg>
+            <lg>
+               <l>The merry time at laſt drew near,</l>
+               <l>On which the Bucks were to appear;</l>
+               <l>Dame <hi>Fortune</hi> at the hour appointed,</l>
+               <l>Attir'd like any Lord's Annointed,</l>
+               <l>In Robes of a <hi>Camelian</hi> Dye,</l>
+               <l>That chang'd in the twinkling of an Eye;</l>
+               <l>Was ſometimes Red, and ſometimes Blue,</l>
+               <l>But alter'd ſtill to ſomething new;</l>
+               <l>Showing by Colours variation</l>
+               <l>Women are ſubject to mutation.</l>
+               <l>Yet notwithſtanding of their ranging,</l>
+               <l>They always are the ſame, that's changing;</l>
+               <l>A pair of Horns of wondrous ſize,</l>
+               <l>All Gold to dazle Humane Eye;,</l>
+               <pb n="7" facs="tcp:95337:4"/>
+               <l>Made full of Antlers Buds and Sprouts,</l>
+               <l>In <hi>Foſter-Lane</hi> or there abouts,</l>
+               <l>By ſome, if Folks don't falſly Jear 'em</l>
+               <l>That have no little Right to wear 'em;</l>
+               <l>Were carried on a lofty Pole</l>
+               <l>Before Queen <hi>Fortune</hi> to the Hall,</l>
+               <l>Juſt as his Cuſtard Cap does bear</l>
+               <l>The Sword before the City May'r;</l>
+               <l>In mighty Pomp ſhe paſt along</l>
+               <l>Attended with abnumerous Throng,</l>
+               <l>Gather'd together by degrees,</l>
+               <l>From th' Four and Twenty Companies.</l>
+               <l>At laſt into the Hall ſhe came,</l>
+               <l>Where all paid Rev<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rence to the Dame.</l>
+               <l>She gaz'd around, and as they Bow'd</l>
+               <l>To th' Horns, ſhe Curt'ſi'd to the Crowd.</l>
+               <l>At laſt it pleaſed her fickle Grace.</l>
+               <l>To find her Jilting Bum a place:</l>
+               <l>The <hi>Court of Conſcience</hi> being clear</l>
+               <l>Of Buſineſs, ſhe Aſcended there;</l>
+               <l>And on the Bench, O fy upon her!</l>
+               <l>She clapt her Tail, that is, her Honour.</l>
+               <pb n="8" facs="tcp:95337:5"/>
+               <l>For Female Honour you muſt know</l>
+               <l>Is humbly ſeated very low;</l>
+               <l>Therefore high Conſcientious Places</l>
+               <l>Do not become a <hi>nunquam ſatis.</hi>
+               </l>
+               <l>However, there the Gipſy ſtaid,</l>
+               <l>And ſat as modeſt as a Maid;</l>
+               <l>With her huge Gilded Mace before her,</l>
+               <l>Which caus'd the Cuckolds to adore her.</l>
+               <l>Thus ſeated on the Bench alone,</l>
+               <l>Like Playhouſe Queen on ſlit-deal Throne:</l>
+               <l>Such Crowds came ſtaring in and gaping,</l>
+               <l>Even from <hi>Weſtminſter</hi> and <hi>Wapping,</hi>
+               </l>
+               <l>That ſure the Hall was ne'er more full</l>
+               <l>Of City Stags at Sheriffs Poll.</l>
+               <l>
+                  <hi>Vintners</hi> and <hi>Vict'lers</hi> flock'd in ſhoals,</l>
+               <l>Made graceful by their flowing Bowls;</l>
+               <l>Whoſe Heads became the noble Creſt,</l>
+               <l>So far exceeding all the reſt,</l>
+               <l>That the whole Herd aloud cry'd out,</l>
+               <l>They never ought t' appear without.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Lawyers</hi> in Droves flow'd in as faſt</l>
+               <l>As if the Term had not been paſt,</l>
+               <pb n="9" facs="tcp:95337:5"/>
+               <l>But hid their Horns beneath their Gowns,</l>
+               <l>And ſo incur'd Dame <hi>Fortune</hi>'s Frowns;</l>
+               <l>But rather than they'd ſpoil the Jeſt,</l>
+               <l>At laſt they wore them like the reſt,</l>
+               <l>Which made the Black-Rob'd Tribe appear</l>
+               <l>Like Oxen driving to a Fair;</l>
+               <l>However they reſolv'd to try</l>
+               <l>For <hi>Fortune</hi>'s Favour by and by,</l>
+               <l>Well knowing that their Wedded Evils</l>
+               <l>Had Tails like Goats, and Tongues like Devils,</l>
+               <l>And that they'd all the Plagues of Life</l>
+               <l>That Man could meet with in a Wife.</l>
+            </lg>
+            <lg>
+               <l>Our Teachers too their Horns exalting,</l>
+               <l>Some young and brisk, ſome old and haulting;</l>
+               <l>Flow'd in from ev'ry part o'th' Nation,</l>
+               <l>As thick as at a Viſitation;</l>
+               <l>All fill'd with hopes, and well prepared,</l>
+               <l>To ſhew what curſed Shrews they'd Marry'd.</l>
+               <l>The angry Crowd, in great diſdain,</l>
+               <l>Cry'd out the Clergy of all Men</l>
+               <l>Shou'd not b'admitted to complain,</l>
+               <pb n="10" facs="tcp:95337:6"/>
+               <l>Becauſe their Function were the firſt</l>
+               <l>That made us Mortals thus accurs'd,</l>
+               <l>And that they puniſh'd Fornication,</l>
+               <l>And brought D—n'd Wedlock into faſhion.</l>
+               <l>But <hi>Fortune</hi> minding not the Crowd,</l>
+               <l>Moſt humbly to the Clergy bow'd,</l>
+               <l>And told them (tho' ſhe ne'er deſign'd it)</l>
+               <l>She'd be their Friend, and they ſhould find it.</l>
+               <l>They thank'd her for the Grace ſhe'd done 'em,</l>
+               <l>But found 't was but a Jeſt upon 'em.</l>
+            </lg>
+            <lg>
+               <l>In numbers flock'd <hi>Phiſicians</hi> too,</l>
+               <l>Who knew not how to tame a Shrew,</l>
+               <l>Or cure for th' eaſe of their own Lives,</l>
+               <l>The Falling Evil in their Wives;</l>
+               <l>Who when their Frenſies were upon 'em,</l>
+               <l>And on their backs their Fits had thrown 'em,</l>
+               <l>They could not riſe, leaſt Folks bely 'em,</l>
+               <l>Whilſt any Man was ſtanding by 'em;</l>
+               <l>But heave and pant, and wink and pink,</l>
+               <l>And breath ſo ſhort that one would think</l>
+               <pb n="11" facs="tcp:95337:6"/>
+               <l>Who did but ſee their Freaks tranſacted</l>
+               <l>That they were Dying or Diſtracted.</l>
+            </lg>
+            <lg>
+               <l>Beſides the ſwarms I mention here,</l>
+               <l>All ſorts of Traders did appear;</l>
+               <l>For no degrees of Men can be</l>
+               <l>From Cuckoldom and Av'rice free;</l>
+               <l>Therefore moſt Husbands had pretence</l>
+               <l>To Fortune's kind Benevolence.</l>
+               <l>The Hall was crowded in a Minute,</l>
+               <l>That not one more cou'd ſqueeze within it.</l>
+               <l>Then Fortune, loud as ſhe could bawl,</l>
+               <l>Commanded Silence in the Hall;</l>
+               <l>And riſing up, from off her Breech,</l>
+               <l>She ſtanding made this gen'rous Speech.</l>
+            </lg>
+            <lg>
+               <l>My Lords and Genrry that appear</l>
+               <l>According to my Summons here,</l>
+               <l>I'm hither come, with Joy to meet ye,</l>
+               <l>And with ſincere Affection great ye,</l>
+               <l>I muſt confeſs, your good alone</l>
+               <l>'Twas brought me hither, not my own,</l>
+               <pb n="12" facs="tcp:95337:7"/>
+               <l>And you ſhall always ſurely find,</l>
+               <l>(Tho' ſome, perhaps, are ſo unkind,</l>
+               <l>To think me of a fickle Mind.)</l>
+               <l>My Heart not Foreign, but Domeſtick;</l>
+               <l>Not Popiſh, but Eccleſiaſtick.</l>
+               <l>With that the Churchmen ſtanding ready,</l>
+               <l>Bow'd low and cry'd, Your Servant Lady.</l>
+               <l>Hoping by this their good Behaviour,</l>
+               <l>To win the Dame and curry Favour;</l>
+               <l>But they, alas, were at a loſs,</l>
+               <l>In thinking to her Love ingroſs;</l>
+               <l>For Fortune's kindneſs wa'n't expreſt</l>
+               <l>To them alone, but all the reſt:</l>
+               <l>After ſome pauſe ſhe thus again</l>
+               <l>Began, and made the Matter plain:</l>
+               <l>All you that bear the heavy Curſe</l>
+               <l>Of, <hi>The Grey Mare the better Horſe;</hi>
+               </l>
+               <l>Or wear the Failings of your Spouſes,</l>
+               <l>A ſmall degree above your Noſes,</l>
+               <l>Let ev'ry one his Grievance ſhow,</l>
+               <l>That I the naked Truth may know.</l>
+               <pb n="13" facs="tcp:95337:7"/>
+               <l>And he who is in Wedlock join'd</l>
+               <l>To the worſt plague of Woman-kind,</l>
+               <l>And leads the moſt confounded Life</l>
+               <l>That e'er did Man with helliſh Wife;</l>
+               <l>Let her be either Young or Old,</l>
+               <l>Fair, Homely, Sluttiſh, Whore, or Scold;</l>
+               <l>Or he be Churchman or Diſſenter,</l>
+               <l>A Trimmer, Puritan, or Ranter;</l>
+               <l>Or neither Whig, or yet a Tory,</l>
+               <l>But does in Moderation glory;</l>
+               <l>Let him be Libertine or Saint,</l>
+               <l>So that he's but a Proteſtant,</l>
+               <l>And he alone, to eaſe his Curſe,</l>
+               <l>Shall have a neverfailing Purſe;</l>
+               <l>Beſides this forked golden Prize,</l>
+               <l>Of ſuch a large and ample ſize</l>
+               <l>That 'twill adorn and grace the Hall</l>
+               <l>Of the beſt Noble of you all;</l>
+               <l>Therefore diſcloſe the wretched Lives</l>
+               <l>You bear with your unruly Wives,</l>
+               <l>That I may judge among you all,</l>
+               <l>On whom my Bounty ought to fall.</l>
+               <pb n="14" facs="tcp:95337:8"/>
+               <l>The Dons and Coms could not agree</l>
+               <l>At firſt about Precedency;</l>
+               <l>But ſuch Debates and Feuds aroſe,</l>
+               <l>As if their Words would end in Blows;</l>
+               <l>Each pelting each with all their Lyes</l>
+               <l>Their Heat and Malice could deviſe:</l>
+               <l>Wiſe Men ſtood by and ſhook their Noddles,</l>
+               <l>To hear their Betters ſuch <hi>Tom-doodles;</hi>
+               </l>
+               <l>Whilſt all the dull unthinking Rabble,</l>
+               <l>Seem'd much delighted with the Squabble;</l>
+               <l>And thereupon the Fools devided,</l>
+               <l>And with the diff'ring Parties ſided;</l>
+               <l>Some for the Dons declar'd their Zeal,</l>
+               <l>Some for the Coms were Tooth and Nail;</l>
+               <l>Bad Words were ſcarter'd at no rate,</l>
+               <l>The Hall was turn'd to <hi>Billingegate</hi>
+               </l>
+               <l>And every Blockhead in the Crew,</l>
+               <l>Eſpous'd one Party of the two,</l>
+               <l>Tho' very few could tell for whi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>They roar'd down this, or cry'd up that.</l>
+               <l>But ſince ill Men had made a <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </l>
+               <l>They would be of one ſide or other.</l>
+               <pb n="15" facs="tcp:95337:8"/>
+               <l>Juſt ſo it is in <hi>Hookley Hole</hi>
+               </l>
+               <l>When <hi>Roſe</hi> and <hi>Brindle</hi> fight the <hi>Bult:</hi>
+               </l>
+               <l>Some on the Dogs will ſet their Heart,</l>
+               <l>Some take the horned Champion's part.</l>
+               <l>When thus diſpos'd, the Rabble-Rout</l>
+               <l>Soon find occaſion to fall out:</l>
+               <l>Then Fools and Dogs and Bulls and Bears,</l>
+               <l>Fall all together by the Ears,</l>
+               <l>Whilſt wiſer Men ſecurely ſit,</l>
+               <l>And overlook the wrangling Pit,</l>
+               <l>Keep ſilent Tongues, no Party take,</l>
+               <l>But view the Sport the Puppies make.</l>
+            </lg>
+            <lg>
+               <l>The Feud grew higher ſtill and higher,</l>
+               <l>For Knaves and Fools encreas'd the Fire,</l>
+               <l>Poets and Scriblers watch'd their Waters,</l>
+               <l>And ply'd them with Lampoons and Satyrs,</l>
+               <l>Each drew his Pen in Rhime or Proſe,</l>
+               <l>To ſerve his Friends or ſcourge his Foes,</l>
+               <l>Whoſe Follies yet were never ſhown</l>
+               <l>Apart, without the Author's own.</l>
+               <pb n="16" facs="tcp:95337:9"/>
+               <l>Which did to Men of Judgment's view,</l>
+               <l>Seem always greateſt of the two.</l>
+               <l>However, rather than conceal</l>
+               <l>Their Faults, they would their own reveal.</l>
+               <l>The Reaſon's plain, for you muſt know it's</l>
+               <l>The Talent of our modern Poets,</l>
+               <l>With ſtupid Malice to delight ye,</l>
+               <l>Becauſe the Jarring envious City,</l>
+               <l>Will not be pleas'd with what is Witty.</l>
+               <l>Thus Libels publickly were cry'd,</l>
+               <l>And flew about from ſide to ſide,</l>
+               <l>The common People to incenſe,</l>
+               <l>And aggravate the difference.</l>
+            </lg>
+            <lg>
+               <l>Dame <hi>Fortune,</hi> with her purblind Eyes,</l>
+               <l>Beholding ſuch a Storm ariſe,</l>
+               <l>Grew Jealous that ſome Ill was meant,</l>
+               <l>To interupt her good Intent;</l>
+               <l>Therefore in hopes to heal the Breach,</l>
+               <l>She made this reconciling Speech.</l>
+               <l>My Dons and Coms I'm much perplex'd,</l>
+               <l>To ſee your Gravities thus vex'd;</l>
+            </lg>
+            <lg>
+               <pb n="17" facs="tcp:95337:9"/>
+               <l>And that the hopes of my poor Favour,</l>
+               <l>Should make you uſe this ſtrange behaviour;</l>
+               <l>What tho' I can beſtow upon you,</l>
+               <l>A never failing Flux of money,</l>
+               <l>And as I'm Fortune, am the Donor,</l>
+               <l>Of Plenty, Power, Wealth, and Honour;</l>
+               <l>Yet ſince to my great Grief I find,</l>
+               <l>Such Av'rice reigning in each Mind,</l>
+               <l>All you that hope to gain the Prize,</l>
+               <l>By ſpreading Calumnies and Lies,</l>
+               <l>And Rave and Quarrel ſo about it,</l>
+               <l>Upon my word ſhall Go without it,</l>
+               <l>For ſhame let me no more behold,</l>
+               <l>Such mighty Men contend for Gold,</l>
+               <l>After ſo turbulent a faſhion,</l>
+               <l>That makes you Odious to the Nation;</l>
+               <l>For tho' you'd fain perſwade the Crowd,</l>
+               <l>You ſquabble for the publick Good,</l>
+               <l>Yet to all wiſemen it appears,</l>
+               <l>That Int'reſt ſets you by the Ears,</l>
+               <l>Therefore I beg that for the future,</l>
+               <l>You will not make this ſhameful Clutter,</l>
+               <pb n="18" facs="tcp:95337:10"/>
+               <l>Or widen ſuch injurious Breaches</l>
+               <l>About priority of Speeches,</l>
+               <l>Since 'twill b'expected by the reſt</l>
+               <l>He that ſpeaks leaſt, ſhould ſpeak the beſt;</l>
+               <l>Therefore, as you have often ſeen</l>
+               <l>At Crowning of a King or Queen,</l>
+               <l>The loweſt Rank do firſt appear,</l>
+               <l>And leave the higheſt in the Rear;</l>
+               <l>So the ſame Mode they uſe in Walking</l>
+               <l>I hope you will obſerve in Talking.</l>
+               <l>Therefore proceed as I direct,</l>
+               <l>And you ſhall find I'll not neglect</l>
+               <l>To do that Juſtice you expect.</l>
+            </lg>
+            <lg>
+               <l>This Speech (although there's little in it)</l>
+               <l>Made them good Friends in half a minute;</l>
+               <l>That all cry'd out in <hi>voce una,</hi>
+               </l>
+               <l>God ſave the mighty Queen <hi>Fortuna.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The whole Aſſembly being pleaſed,</l>
+               <l>And all their Heats and Feuds appeaſed,</l>
+               <pb n="19" facs="tcp:95337:10"/>
+               <l>A <hi>Fleet-ſtreet Vintner</hi> in the Crowd,</l>
+               <l>Open'd his Caſe, but firſt he Bow'd.</l>
+            </lg>
+            <lg>
+               <l>Madam, ſays he, upon my Life</l>
+               <l>I've got the Devil of a Wife;</l>
+               <l>She's Luſtful, Ugly, and ſhe's Old,</l>
+               <l>And beſides theſe, a Curſed Scold,</l>
+               <l>Her Crabbed Looks, the Pariſh knows it,</l>
+               <l>Will turn new Milk into a Poſſet.</l>
+               <l>When I am kind ſhe's ſtill ſo baſe,</l>
+               <l>Her Eyes daſh Verjuice in my Face,</l>
+               <l>Nay, Pepper dwells upon her Tongue,</l>
+               <l>Which ſhe ſhakes o'er me all day long;</l>
+               <l>No <hi>Smithfield Cook</hi> ſure e'er abus'd,</l>
+               <l>Or us'd Roaſt-Beef as I am us'd;</l>
+               <l>Beſides, I can with ſafety ſwear</l>
+               <l>The Jade confounds me every Year</l>
+               <l>A Hundred Pounds more than is fitting</l>
+               <l>In Dainty Bits for her own Eating;</l>
+               <l>And Drinks, I may with Juſtice ſay,</l>
+               <l>Two Quarts of <hi>Palm Wine</hi> every day;</l>
+               <pb n="20" facs="tcp:95337:11"/>
+               <l>But that which I reſent moſt ill,</l>
+               <l>And is of all the bittereſt Pill</l>
+               <l>When ſhe's got Drunk, the Whore of Whores</l>
+               <l>Turns up her Honour to my Drawers,</l>
+               <l>And picks my Pocket of my Pelf,</l>
+               <l>To make them Richer than my ſelf.</l>
+               <l>With that he Sigh'd, and wip'd his Eyes,</l>
+               <l>And cry'd he hop'd ſuch Miſeries</l>
+               <l>Might give him Title to the Prize.</l>
+            </lg>
+            <lg>
+               <l>When this his ſad Complaint was heard,</l>
+               <l>All the Blue Squadron gap'd and ſtar'd,</l>
+               <l>And tho' the major party had</l>
+               <l>Such Wives that were profuſely Bad;</l>
+               <l>Yet none cou'd ſay he had a worſe,</l>
+               <l>So every one conceal'd his Curſe,</l>
+               <l>Sneak'd off their Horns, as prudence bid 'em,</l>
+               <l>And underneath their Aprons hid 'em,</l>
+               <l>Believing their Cornuted Brother</l>
+               <l>Muſt bear the Bell from all the other.</l>
+               <l>Next him a Doctor of the Body,</l>
+               <l>A mighty Spruce Cornutede Noddy,</l>
+               <pb n="21" facs="tcp:95337:11"/>
+               <l>Advanc'd and humbly did beſeech</l>
+               <l>Dame <hi>Fortune</hi> to obſerve his Speech.</l>
+            </lg>
+            <lg>
+               <l>Madam, ſays he, upon my Honour</l>
+               <l>I have a Spouſe, a Pox upon her,</l>
+               <l>So Luſtful, that I'm ſure her Tail is</l>
+               <l>As hot as <hi>Lapis Infernalis.</hi>
+               </l>
+               <l>'Tis troubled with a Wolfiſh Evil,</l>
+               <l>And eats Raw Fleſh like any Devil,</l>
+               <l>Gobbles up Handfuls at a time,</l>
+               <l>Yet thinks the Gluttony no Crime.</l>
+               <l>Tho' I muſt needs confeſs 'tis true</l>
+               <l>It has no Teeth and cannot Chew;</l>
+               <l>Yet will it mumble it ſo about</l>
+               <l>'Till it has ſuck'd the Goodneſs out,</l>
+               <l>And that ſmall Cud which does remain</l>
+               <l>It Spits as Nauſeous out again;</l>
+               <l>Yet raves the next ſucceeding Minute</l>
+               <l>For more, as if the Devil was in it.</l>
+               <l>I Feed the <hi>Vulture</hi> all I can,</l>
+               <l>But tis too much for one poor Man.</l>
+               <pb n="22" facs="tcp:95337:12"/>
+               <l>It therefore will have change of Diet,</l>
+               <l>Yet all wo'nt keep the Monſter quiet;</l>
+               <l>And if theſe Plagues deſerve no Favour,</l>
+               <l>Old Nick take Wife and Prize together.</l>
+            </lg>
+            <lg>
+               <l>The reſt of th' <hi>Aeſculapian</hi> Grew</l>
+               <l>At this courſe Plea look'd very blue;</l>
+               <l>They all expecting to have heard</l>
+               <l>A Speech becoming of a Bard.</l>
+               <l>Some hem'd and haw'd, whilſt others vex'd,</l>
+               <l>And no one car'd to venture next.</l>
+               <l>A cunning Fox of great renown,</l>
+               <l>Wrap'd up in Legiſlative Gown,</l>
+               <l>Finding the Quacks were not agreed</l>
+               <l>About what Brother ſhou'd ſucceed,</l>
+               <l>Steping 'twixt <hi>Fortune</hi> and the Crowd,</l>
+               <l>Cly'd, Madam, by your leave, and Bow'd;</l>
+               <l>Then upright as an Arrow ſtood,</l>
+               <l>Stuck Thumbs i'th' Waſt-band of his Breeches,</l>
+               <l>And baulk'd the Doctors of their Speeches.</l>
+            </lg>
+            <lg>
+               <pb n="23" facs="tcp:95337:12"/>
+               <l>Madam, ſays he (and looks upon her)</l>
+               <l>I'm much beholding to your Honour,</l>
+               <l>For I muſt needs confeſs in Truth</l>
+               <l>I've been your Favourite from my Youth;</l>
+               <l>Yet tho' I'm now ſo highly mounted,</l>
+               <l>And have at <hi>Weſtminſter</hi> been counted</l>
+               <l>So Juſt and Wiſe thro' all my Life,</l>
+               <l>I'm almoſt Gally'd with a Wife.</l>
+               <l>What tho' I'm learn'd in every Cauſe,</l>
+               <l>And long have doated on the Laws,</l>
+               <l>Yet could I never find out one</l>
+               <l>To make the Gipſy hold her Tongue,</l>
+               <l>An Age I've Pleaded at the Bar</l>
+               <l>And am no puny Orator,</l>
+               <l>Yet tho' ſhe's Old, my Jangling Gillian</l>
+               <l>Will ſtill out-Talk me by a Million,</l>
+               <l>And for one Word I Speak, ſhe muſters</l>
+               <l>Whole Troops, and pelts my Ears by cluſters.</l>
+               <l>Therefore kind Lady Fair, crys he,</l>
+               <l>I hope to eaſe my Miſery.</l>
+               <l>You will to me the Purſe impart,</l>
+               <l>For I love God with all my Heart.</l>
+               <pb n="24" facs="tcp:95337:13"/>
+               <l>
+                  <hi>Fortune</hi> reply'd ſhe'd be his Friend,</l>
+               <l>And do him Juſtice in the end.</l>
+            </lg>
+            <lg>
+               <l>A Parſon next of wondrous Note,</l>
+               <l>Betwixt a <hi>Polecat</hi> and a <hi>Stoate,</hi>
+               </l>
+               <l>Advanc'd with very Sickly look,</l>
+               <l>Hem'd thrice, and thus to <hi>Fortune</hi> Spoke.</l>
+            </lg>
+            <lg>
+               <l>Madam, I come not here to Preach,</l>
+               <l>Or ſhow my Elegance of Speech;</l>
+               <l>Nor ſhall I now maintain that Schiſm,</l>
+               <l>Which ſome Men call Socinianiſm:</l>
+               <l>Or teach you how a Man that's Crafty,</l>
+               <l>May take Oaths <hi>pro</hi> and <hi>con</hi> with ſafety.</l>
+               <l>In ſhort I'm come to give you notice,</l>
+               <l>
+                  <hi>In verbo vero Sacerdotis;</hi>
+               </l>
+               <l>That no poor Mortal of my Function</l>
+               <l>Was ever under more Compunction;</l>
+               <l>Not for my own Erroneous Life,</l>
+               <l>But for the Failings of my Wife,</l>
+               <l>Who has a Tongue that Squalls and Bawls</l>
+               <l>As loud as any Bell in <hi>Paul's.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="25" facs="tcp:95337:13"/>
+               <l>At meals inſtead of Grace ſhe'll ſit</l>
+               <l>And ſcold before and after Meat,</l>
+               <l>Nay, find more ſeaſons ev'ry day,</l>
+               <l>To rave than I can do to Pray;</l>
+               <l>And rants with ſuch a taunting Air,</l>
+               <l>Adsnouns ſh'would make a Parſon ſwear.</l>
+               <l>Beſides, as I'm a Prieſt and Sinner,</l>
+               <l>I dare not take a Friend to Dinner,</l>
+               <l>Or ſhow that Love to a poor Brother,</l>
+               <l>We ought to bear to one another,</l>
+               <l>Leaſt ſhe, my good Intent to Croſs,</l>
+               <l>Should give our meat ſuch ſower ſauce,</l>
+               <l>That meeting with a Tongue ſo Evil,</l>
+               <l>My Friend ſhould think me ſo uncivil,</l>
+               <l>To make him Meſs-mate with the Devil.</l>
+            </lg>
+            <lg>
+               <l>Believe me 'twas alone her Tongue,</l>
+               <l>That aw'd my Conſcience all along,</l>
+               <l>And made me ſuch a wav'ring Prieſt,</l>
+               <l>That I became a Common Jeſt;</l>
+               <l>But who that's wedded to a ſcold,</l>
+               <l>Can blame me now the Truth is told?</l>
+               <pb n="26" facs="tcp:95337:14"/>
+               <l>For while Man's Man's ſo plagu'd and nettled?</l>
+               <l>How ſhould his Conſcience e'er be ſettled?</l>
+            </lg>
+            <lg>
+               <l>With that the Crowd both hiſs'd and ſmil'd,</l>
+               <l>And all his quaint Oration Spoil'd,</l>
+               <l>Crying aloud ſince he had hung</l>
+               <l>His Faith upon ſo vile a Tongue,</l>
+               <l>They hop'd the Devil wou'd adapt her,</l>
+               <l>To plague him to the end o'th' Chapter.</l>
+               <l>Beſides they cry'd, it was not fit,</l>
+               <l>That he who had ſo little Wit,</l>
+               <l>To let his Wives tempeſtuous Tongue</l>
+               <l>His Reaſon ſway 'twixt Right and Wrong,</l>
+               <l>Should in a Pious Chriſtian Nation</l>
+               <l>Be truſted with a Congregation,</l>
+               <l>And that the puny Wretch that knew</l>
+               <l>Not how to teach and tame a Shrew,</l>
+               <l>Muſt needs before his Wife Preach Booty,</l>
+               <l>And oft thro' Fear evade his Duty;</l>
+               <l>For how ſhould he that has a Scold</l>
+               <l>Of's own, and dare not be ſo bold</l>
+               <pb n="27" facs="tcp:95337:14"/>
+               <l>To ſcourge her Failings any one day</l>
+               <l>Reclaim Five Hundred on a <hi>Sunday?</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>This Rub made all the Gown-men ſneak,</l>
+               <l>Who found 'twas now in vain to Speak,</l>
+               <l>Touch'd with this cloſe ſarcaſtick Scoff,</l>
+               <l>They dop'd their Heads, and ſo ſlid off;</l>
+               <l>Renounc'd the Prize, and left the Hurry</l>
+               <l>Went ſome to Chriſten, ſome to Marry,</l>
+               <l>Some to Read Prayers, and ſome to Bury.</l>
+            </lg>
+            <lg>
+               <l>No ſooner were the Black-birds Flown</l>
+               <l>But then the Mighty Dons came on,</l>
+               <l>Some ſmil'd and ſnicker'd unperplext,</l>
+               <l>Whilſt others look'd diſturb'd and vex'd;</l>
+               <l>Much Whiſp'ring paſs'd from Mouth to Ear,</l>
+               <l>About no Good a Man may Swear,</l>
+               <l>Becauſe Don <hi>Quirk</hi> was buſie there.</l>
+               <l>Projecting <hi>Snap</hi> ſtood liſtning by,</l>
+               <l>Seem'd ſometimes free, and ſometimes ſhy;</l>
+               <l>That's Wrong, ſays he, and will not Nick'em,</l>
+               <l>But this is Right, and there we'll Trick 'em.</l>
+               <pb n="28" facs="tcp:95337:15"/>
+               <l>Whilſt they were thus Caballing got,</l>
+               <l>About the Lord knows who or what,</l>
+               <l>A bold Heroick Don well dreſt,</l>
+               <l>Stept ſlyly from amongſt the reſt,</l>
+               <l>And Whiſper'd <hi>Fortune</hi> in her Ear,</l>
+               <l>But what he ſaid no Man could hear;</l>
+               <l>Whether he ſpoke about his Wife,</l>
+               <l>Or ſelf, I know not by my Life;</l>
+               <l>But <hi>Fortune</hi> ſeeming much ſurpris'd,</l>
+               <l>Yet pleas'd at what he advertis'd,</l>
+               <l>Cry'd out aloud, if that's thy Curſe</l>
+               <l>I think thou well deſerv'ſt the Purſe,</l>
+               <l>It Juſtly to thy Lot does Fall,</l>
+               <l>Here, prethee take it Horns and all.</l>
+            </lg>
+            <lg>
+               <l>Madam, ſays he, it is great Pity</l>
+               <l>Of ſuch a Prize to Rob the City;</l>
+               <l>So took the Purſe, but was ſo kind,</l>
+               <l>To humbly leave the Mace behind.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
